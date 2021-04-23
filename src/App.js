@@ -1,14 +1,19 @@
+import React from 'react';
 import './App.css';
+import Screen from './Screen';
 
-function App() {
-  return (
-    <div className="App">
-      <div className="IPodFrame">
-        <div className="screen"></div>
-        <div className="control"></div>
+class App extends React.Component {
+
+  render(){
+    return (
+      <div className="App">
+        <div className="IPodFrame">
+           <Screen />
+          <div className="control"></div>
+        </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default App;
