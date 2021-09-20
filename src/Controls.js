@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import './Control.css';
 
 const Controls = () => {
     return (
         <div>
             <div className="main-div">
+                Hello
                 <div className="menu"></div>
                 <div className="backward-div"></div>
                 <div className="center-div"></div>

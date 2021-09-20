@@ -1,9 +1,9 @@
 import React from 'react';
+import './Screen.css';
 
-class Screen extends React.Component
-{
+class Screen extends React.Component {
     render() {
-        return(
+        return (
             <div className="screen1">
                 Hi
             </div>
