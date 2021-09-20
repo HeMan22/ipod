@@ -1,15 +1,16 @@
 import React from 'react';
-import './App.css';
 import Screen from './Screen';
-
+import Controls from './Controls';
 class App extends React.Component {
 
-  render(){
+  render() {
     return (
       <div className="App">
         <div className="IPodFrame">
-           <Screen />
-          <div className="control"></div>
+          <Screen />
+          <div className="control">
+            <Controls />
+          </div>
         </div>
       </div>
     );

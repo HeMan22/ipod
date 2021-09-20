@@ -1,0 +1,8 @@
+.main-div {
+  width: 22vw;
+  height: 75vh;
+  background-color: rgb(187, 183, 183);
+
+  border-radius: 6%;
+  padding: 2%;
+}
