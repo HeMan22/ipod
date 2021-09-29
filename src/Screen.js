@@ -5,6 +5,7 @@ class Screen extends React.Component {
     render() {
         return (
             <div className="screen1">
+                <span>IPOD</span>
                 <ul>
                     <li>Cover Flow</li>
                     <li>Music</li>
